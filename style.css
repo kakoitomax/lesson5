@@ -1,0 +1,89 @@
+.clearfix{
+    display: block;
+    clear: both;
+}
+.header {
+    background-image: url(1.jpg);
+    width: 1024px;
+    height: 400px;
+    margin: 0 auto;
+}
+ul{
+    list-style: none;
+    margin: 0 ;
+    padding: 0;
+    background: rgb(61, 60, 60);
+    word-spacing: 40px;
+    text-align: center;
+    
+}
+
+
+a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+.a1:hover {
+    color: red;
+}
+.menu {
+    display: block;
+    width: 1024px;
+    height: 40px;
+    margin: 0 auto;
+    background-color: rgb(61, 60, 60);
+}
+li {
+    display: inline-block;
+    font-size: 20px;
+    
+    
+}
+
+a.Uk, .Ru, .Po, .La {
+    color: rgb(148, 12, 12);
+}
+
+div.left-menu {
+    float: left;
+    width: 140px;
+    margin: 0;
+    display: inline-block;
+}
+.content {
+    background-image: url(2.png);
+    float: left;
+    height: 460px;
+    width: calc(100% - 140px);
+    display: inline-block;
+}
+.menu_and_cont {
+    height: 460px;
+    display: block;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.text {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(97, 219, 15);
+    font-size: 150%;
+    
+}
+.text:hover {
+    color: rgb(161, 10, 129);
+    font-size: 200%;
+}
+.footer {
+    width: 1024px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: rgb(61, 60, 60);
+    display: block;
+}
+.footer-text {
+    text-align: center;
+    color: #fff;
+    padding-top: 40px;
+}
